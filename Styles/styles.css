@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --h1Color: #D70845;
+    --mainTextColor: #856827;
+    --h2Color: #7C6B2E;
+    --h3Color: #38492E;
+    --inTextLinks: #203D3F;
+    --footerColor: #C59B3A;
+    background-color: #EEEEEE;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 50rem;
+    padding-bottom: 5rem;
+  }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--mainTextColor);
+    line-height: 1.5;
+}
+
+nav, svg, h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--inTextLinks);
+    color: var(--footerColor)
+}
+
+h1 {
+    font-family: 'Halant', serif;
+    color:var(--h1Color);
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+h2 {
+font-family: 'Spectral', serif;
+color: var(--h2Color);
+line-height: 1.2;
+text-align: center;
+font-size: 35px;
+}
+
+h3 {
+font-family: 'Karla', sans-serif;
+color: var(--h3Color);
+line-height: 1.2;
+font-size: 30px;
+}
+
+a {
+    color: var(--h3Color);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--mainTextColor);
+}
+
+a:hover {
+    color: black;
+}
+
+a.inText {
+    color:var(--inTextLinks);
+}
+
+img {
+    width:100%;
+    display: block;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.button {
+    background-color: var(--h1Color);
+    color: var(--h3Color);
+    font-size: 20px;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    margin-top: 10vh;
+    text-shadow: 2px 2px 4px #000;
+}
